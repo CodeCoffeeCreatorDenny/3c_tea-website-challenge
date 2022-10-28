@@ -148,9 +148,6 @@ section {
 }
 
 .about {
-  /* background: url(../img/feature.svg); */
-  /* background-size: cover;
-  background-position: center; */
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   align-items: center;
@@ -160,7 +157,7 @@ section {
 .about-img img {
   width: 100%;
   height: auto;
-  padding-top: 80px;
+  border-radius: 10px;
 }
 
 .about-text h2 {
